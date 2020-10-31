@@ -244,7 +244,6 @@ class OpusEncoder:
             self._encoder,
             pcm_ptr,
             frame_size_int,
-            self._output_buffer_ptr,
             self._max_bytes_per_frame
         )
         # result from unt32 to float
